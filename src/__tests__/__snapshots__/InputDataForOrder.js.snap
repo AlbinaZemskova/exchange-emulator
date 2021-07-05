@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputDataForOrder /> InputDataForOrder component render renders without crashing 1`] = `
+<Fragment>
+  <Container
+    tag="div"
+  >
+    <Row
+      tag="div"
+    >
+      <Col
+        lg="6"
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <h3>
+          Left your order for buy
+        </h3>
+        <Form
+          handleSubmit={[Function]}
+        />
+      </Col>
+      <Col
+        lg="6"
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <h3>
+          Left your order for sell
+        </h3>
+        <Form
+          handleSubmit={[Function]}
+        />
+      </Col>
+    </Row>
+  </Container>
+  <hr />
+</Fragment>
+`;

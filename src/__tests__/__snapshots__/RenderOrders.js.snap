@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RenderOrder /> RenderOrders component render renders without crashing 1`] = `
+<Fragment>
+  <Container
+    className="d-flex justify-content-center"
+    tag="div"
+  >
+    <Row
+      tag="div"
+    >
+      <Col
+        lg="12"
+        tag="div"
+        widths={
+          Array [
+            "xs",
+            "sm",
+            "md",
+            "lg",
+            "xl",
+          ]
+        }
+      >
+        <ListOfOrders
+          listOfOrders={
+            Array [
+              Object {
+                "count": 300,
+                "price": 17000,
+              },
+              Object {
+                "count": 250,
+                "price": 5000,
+              },
+              Object {
+                "count": 300,
+                "price": 5000,
+              },
+            ]
+          }
+        />
+        <hr
+          className="font-weigth-bold bg-dark mr-2 w-60"
+        />
+        <ListOfOrders
+          listOfOrders={
+            Array [
+              Object {
+                "count": 100,
+                "price": 1000,
+              },
+              Object {
+                "count": 200,
+                "price": 1000,
+              },
+              Object {
+                "count": 1,
+                "price": 2000,
+              },
+            ]
+          }
+        />
+      </Col>
+    </Row>
+  </Container>
+  <hr />
+</Fragment>
+`;

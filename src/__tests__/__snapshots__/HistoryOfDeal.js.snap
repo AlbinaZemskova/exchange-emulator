@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HistoryOfDeal /> HistoryOfDeal component render renders without crashing 1`] = `
+<Container
+  tag="div"
+>
+  <Row
+    className="text-center h4"
+    tag="div"
+  >
+    <Col
+      lg="12"
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <h1
+        className="border border-success p-2"
+      >
+        History Of Deal
+      </h1>
+      <div
+        key="0"
+      >
+        200
+          bitcoins sold for price   $
+        1000
+      </div>
+      <div
+        key="1"
+      >
+        150
+          bitcoins sold for price   $
+        2000
+      </div>
+    </Col>
+  </Row>
+</Container>
+`;

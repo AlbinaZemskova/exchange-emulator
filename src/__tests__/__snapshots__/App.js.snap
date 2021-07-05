@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> App component render renders without crashing, generate orders from config for first launch 1`] = `
+<Fragment>
+  <Connect(InputDataForOrder) />
+  <Connect(RenderOrders) />
+  <Connect(HistoryOfDeals) />
+</Fragment>
+`;

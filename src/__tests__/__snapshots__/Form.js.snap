@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form /> render renders without crashing 1`] = `
+<form
+  className="mt-3"
+  onSubmit={[Function]}
+>
+  <span>
+    Count of bitcoin
+  </span>
+  <br />
+  <input
+    autoComplete="off"
+    className="w-50"
+    id="count"
+    onChange={[Function]}
+  />
+  <br />
+  <span>
+    Price of 1 bitcoin
+  </span>
+  <br />
+  <input
+    autoComplete="off"
+    className="w-50"
+    id="price"
+    onChange={[Function]}
+  />
+  <br />
+  <Button
+    className="mt-2"
+    color="success"
+    tag="button"
+    type="submit"
+  >
+    Submit
+  </Button>
+</form>
+`;
